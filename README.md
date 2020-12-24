@@ -1,5 +1,5 @@
 step 1 = node init
-step 2 = node data
+step 2 = node createData
 step 3 = check animals.json file
 you will get random animals data
 
