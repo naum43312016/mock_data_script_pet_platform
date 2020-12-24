@@ -1,36 +1,67 @@
 const catBreed = require('./catBreeds');
 const dogBreed = require('./dogBreeds');
 const getPictures = require('./getPictures');
+
 const mockData = [{
-    "name": "Deidre",
-    "color": "Green"
-  }, {
-    "name": "Domenico",
-    "color": "Red"
-  }, {
-    "name": "Rosy",
-    "color": "Purple"
-  }, {
-    "name": "Bartolemo",
-    "color": "Yellow"
-  }, {
-    "name": "Jasper",
-    "color": "Aquamarine"
-  }, {
-    "name": "Gardie",
-    "color": "Blue"
-  }, {
-    "name": "Rufus",
-    "color": "Indigo"
-  }, {
-    "name": "Emmy",
-    "color": "Fuscia"
-  }, {
-    "name": "Reba",
-    "color": "Purple"
-  }, {
-    "name": "Florette",
-    "color": "Aquamarine"
+  "name": "Astrid",
+  "color": "Pink"
+}, {
+  "name": "Cherie",
+  "color": "Pink"
+}, {
+  "name": "Idette",
+  "color": "Yellow"
+}, {
+  "name": "Cory",
+  "color": "Violet"
+}, {
+  "name": "Lorenza",
+  "color": "Red"
+}, {
+  "name": "Jillian",
+  "color": "Maroon"
+}, {
+  "name": "Gauthier",
+  "color": "Violet"
+}, {
+  "name": "Webb",
+  "color": "Maroon"
+}, {
+  "name": "Bryon",
+  "color": "Maroon"
+}, {
+  "name": "Lola",
+  "color": "Violet"
+}, {
+  "name": "Muriel",
+  "color": "Purple"
+}, {
+  "name": "Aubrey",
+  "color": "Goldenrod"
+}, {
+  "name": "Davide",
+  "color": "Blue"
+}, {
+  "name": "Noah",
+  "color": "Blue"
+}, {
+  "name": "Maynord",
+  "color": "Orange"
+}, {
+  "name": "Ahmed",
+  "color": "Turquoise"
+}, {
+  "name": "Kennan",
+  "color": "Red"
+}, {
+  "name": "Barrie",
+  "color": "Turquoise"
+}, {
+  "name": "Tova",
+  "color": "Indigo"
+}, {
+  "name": "Consuelo",
+  "color": "Red"
 }]
 const len = mockData.length;
 exports.getName = () => {
